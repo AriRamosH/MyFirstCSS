@@ -1,0 +1,26 @@
+body {
+    background-image: url(IMG/BG.png);
+    background-color: #5F5F5F;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    background-image: url('IMG/moon.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+}
+ p{
+    padding: 30px;
+    background-image: url(IMG/Wall_01.jpg);
+    background-repeat: repeat-x; 
+    color: white; 
+    }
+h1 {
+  text-decoration: overline;
+}
+p.underline {
+    text-decoration: underline;
+}
+a:hover {
+  background-color: yellow;
+}
