@@ -2,25 +2,50 @@ body {
     background-image: url(IMG/BG.png);
     background-color: #5F5F5F;
     font-family: arial, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     background-image: url('IMG/moon.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: auto;
 }
- p{
-    padding: 30px;
+div.transbox{
+    padding: 10px;
     background-image: url(IMG/Wall_01.jpg);
+    opacity: 0.6;
     background-repeat: repeat-x; 
-    color: white; 
-    }
-h1 {
-  text-decoration: overline;
 }
-p.underline {
+ div.transbox h1{
+     margin: 5%;
+     font-weight: bold;
+     color: #FFFFFF 
+    }
+h2 {
     text-decoration: underline;
+    color: #FFF77D;
+    opacity: 0.8;
+}
+p{
+    color: #A9A9A9;
 }
 a:hover {
   background-color: yellow;
+}
+p.clear {
+  clear: both;
+}
+img{
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.footer {
+   font-size: 8px;
+   position: fixed;
+   opacity: 0.8; 
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: gray;
+   color: white;
+   text-align: center;
 }
