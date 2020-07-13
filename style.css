@@ -1,24 +1,24 @@
 body {
     background-image: url(IMG/BG.png);
     background-color: #5F5F5F;
-    font-family: arial, sans-serif;
     font-size: 14px;
     background-image: url('IMG/moon.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: auto;
+    font-family: "Roboto-Light"; /* Font #1 */
 }
 div.transbox{
     padding: 10px;
     background-image: url(IMG/Wall_01.jpg);
     opacity: 0.6;
-    background-repeat: repeat-x; 
+    background-repeat: repeat-x;
 }
  div.transbox h1{
      margin: 5%;
      font-weight: bold;
-     color: #FFFFFF 
+     color: #FFFFFF;
     }
 h2 {
     text-decoration: underline;
@@ -40,6 +40,7 @@ img{
 }
 .footer {
    font-size: 8px;
+    font-family: "MeriendaOne-Regular"; /* Font #2 */
    position: fixed;
    opacity: 0.8; 
    left: 0;
