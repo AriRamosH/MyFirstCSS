@@ -7,7 +7,6 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: auto;
-    font-family: "Roboto-Light"; /* Font #1 */
 }
 div.transbox{
     padding: 10px;
@@ -20,6 +19,15 @@ div.transbox{
      font-weight: bold;
      color: #FFFFFF;
     }
+
+@font-face {
+    font-family: "MyWebFont";
+    src: url("./font/Roboto/Roboto-Light.ttf");
+}
+
+.a:hover{
+    transform: scale(1.2);
+}
 h2 {
     text-decoration: underline;
     color: #FFF77D;
@@ -27,6 +35,7 @@ h2 {
 }
 p{
     color: #A9A9A9;
+    font-family: "MyWebFont";
 }
 a:hover {
   background-color: yellow;
@@ -39,14 +48,14 @@ img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .footer {
-   font-size: 8px;
-    font-family: "MeriendaOne-Regular"; /* Font #2 */
-   position: fixed;
-   opacity: 0.8; 
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: gray;
-   color: white;
-   text-align: center;
+    font-size: 8px;
+    font-family: "MeriendaOne-Regular";  /* Font #2 */
+    position: fixed;
+    opacity: 0.8; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
 }
